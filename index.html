@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <div class="title">
+        <img src="BackgroundImages/subwaylogo.png" class='subway' alt="">
+        <h1 class="animate-character">Randomizer</h1>
+    </div>
+    <div id="menuItems"></div>
+
+    <div class="selectionBox">
+
+        <div class="meatSelect">
+            <label for="meatCheck">Meat</label>
+            <select id="meatCheck">
+                <option value="yes" selected>&#x2713;</option>
+                <option value="no">X</option>
+            </select>
+            <input id="meatAmount" type="number" max="3" ,="" min="1" value="1">
+        </div>
+
+        <div class="cheeseSelect">
+            <label for="cheeseCheck">Cheese</label>
+            <select id="cheeseCheck">
+                <option value="yes" selected>&#x2713;</option>
+                <option value="no">X</option>
+            </select>
+            <input id="cheeseAmount" type="number" max="3" ,="" min="1" value="1">
+        </div>
+
+        <div class="veggiesSelect">
+            <label for="veggiesCheck" class="optionLabel">Veggies</label>
+            <select id="veggiesCheck">
+                <option value="yes" selected>&#x2713;</option>
+                <option value="no">X</option>
+            </select>
+            <input id="veggiesAmount" type="number" max="10" ,="" min="1" value="1">
+        </div>
+
+        <div class="sauceSelect">
+            <label for="sauceCheck" class="optionLabel">Sauce</label>
+            <select id="sauceCheck">
+                <option value="yes" selected>&#x2713;</option>
+                <option value="no">X</option>
+            </select>
+            <input id="sauceAmount" type="number" max="7" ,="" min="1" value="1">
+        </div>
+        <button class="randomize button__loader">
+            <span class="button__text">
+                Get me a Sub!
+            </span>
+        </button>
+    </div>
+
+    <div class="subContentDisplay hidden">
+        <button class="changeOptions button__loader">
+            <span class="button__text">
+                Options
+            </span>
+        </button>
+        <button class="reset button__loader">
+            <span class="button__text">
+                New Sub!
+            </span>
+        </button>
+        <div class="breadDisplay">
+            <h1 class="subCat">Bread</h1>
+        </div>
+        <div class="meatDisplay">
+            <h1 class="subCat">Meat</h1>
+        </div>
+        <div class="cheeseDisplay">
+            <h1 class="subCat">Cheese</h1>
+        </div>
+        <div class="veggieDisplay">
+            <h1 class="subCat">Veggie</h1>
+        </div>
+        <div class="sauceDisplay">
+            <h1 class="subCat">Sauce</h1>
+        </div>
+    </div>
+    <div class="loader hidden"></div>
+    
+    
+    <script src="src/script.js"></script>
+</body>
+</html>

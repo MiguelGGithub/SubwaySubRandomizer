@@ -1,0 +1,499 @@
+/**************
+* BUTTON STYLES AND ANIMATIONS
+*************/
+:root {
+  /*========== Colors ==========*/
+  --first-color: #0ba360;
+  --first-color-alt: #3cba92;
+  --text-color: hsl(231, 12%, 98%);
+  --body-color: hsl(231, 100%, 94%);
+}
+.button__loader {
+    border: none;
+    outline: none;
+    position: relative;
+    padding: 1.25rem 0rem;
+    background-color: var(--first-color);
+    color: var(--text-color);
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    border-radius: .5rem;
+    box-shadow: 0 18px 40px hsla(231, 56%, 56%, .3);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button__loader::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150%;
+    height: 100%;
+    background: repeating-linear-gradient(120deg, 
+                transparent, 
+                transparent 0.75rem, 
+                var(--first-color-alt) 0.75rem, 
+                var(--first-color-alt) 1.5rem);
+    animation: load 1s infinite linear;
+}
+
+.button__text {
+    position: relative;
+}
+
+/* Loading button animation */
+@keyframes load {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1.75rem);
+  }
+}
+.animate-character{
+    text-transform: uppercase;
+background-image: linear-gradient(
+    -225deg,
+    #00ff22 0%,
+    #8ec214 29%,
+    #eee12a 67%,
+    #09ff00 100%
+
+);
+background-size: auto auto;
+background-clip: border-box;
+background-size: 200% auto;
+color: #fff;
+background-clip: text;
+text-fill-color: transparent;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: textclip 2s linear infinite;
+}
+
+@keyframes textclip {
+to {
+background-position: 200% center;
+}
+}
+.slide-top {
+-webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes slide-top {
+0% {
+  -webkit-transform: translateY(0);
+          transform: translateY(00);
+}
+100% {
+  -webkit-transform: translateY(30px);
+          transform: translateY(30px);
+}
+}
+@keyframes slide-top {
+0% {
+-webkit-transform: translateY(0);
+        transform: translateY(0);
+}
+100% {
+-webkit-transform: translateY(30px);
+        transform: translateY(30px);
+}
+}
+.loader {
+    margin: auto;
+    border: 20px solid #f4f6ea;
+    border-radius: 80px;
+    border-top: 20px solid #0ba360;
+    width: 100px;
+    height: 100px;
+    animation: spinner 1.5s linear infinite;
+}
+  
+@keyframes spinner {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/****************
+  * Positioning
+  *************/
+*{
+    box-sizing: border-box;
+}
+div.hidden{
+    display: none;
+}
+img {
+    max-width: 5rem;
+}
+.title{
+    text-align: center;
+}
+.subContentDisplay {
+  display: flex;
+  flex-direction: column;
+}
+
+.subContentDisplay div {
+  display: flex;
+  flex-direction: column;
+}
+
+.subContentDisplay > div > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  align-items: center; 
+}
+.subContentDisplay button{
+    
+}
+.selectionBox{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem 0;
+}
+.selectionBox > div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+/****************
+* STYLES
+*************/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background-image: url('../BackgroundImages/turkeysub.png');
+    background-repeat: no-repeat;
+    background-size: 35rem;
+    background-position: -100px;
+    background-position-y: 200px;
+    padding-bottom: 4rem;
+}
+.subway{
+    max-width: 15rem;
+}
+.animate-character{
+    border-bottom: 5px solid green;
+    margin-top: -0.1rem;
+    padding-bottom: 0.3rem;
+    font-size: 2rem;
+}
+.selectionBox > div{
+    gap: 1rem 0;
+}
+.selectionBox > div label{
+    font-size: 2rem;
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    margin: 0 3rem;
+    padding-bottom: 0.4rem;
+    color: white;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 
+    0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+.selectionBox > div > select,
+.selectionBox > div > input{
+    margin: 0 6rem;
+    text-align: center;
+    padding: 0.3rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.selectionBox > div > input{
+    border: 3px solid green;
+    border-radius: 20px;
+}
+.randomize{
+    margin: 0 4rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+/****
+* part 2
+***/
+.subContentDisplay{
+    gap: 1rem 0;
+}
+.subCat{
+    background: linear-gradient(to right, yellow, green, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.subContentDisplay > div{
+    background: white;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, 
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    text-align: center;
+    padding-bottom: 3rem;
+    border: 2px solid darkgreen;
+}
+.subContentDisplay > div > div{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, 
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    margin: 0 1.5rem;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+}
+.subContentDisplay > div > h1{
+    color: green;
+}
+.subContentDisplay > div > div{
+    gap: 0 3rem;
+    text-align: left;
+    justify-content: start;
+}
+.subContentDisplay > div > div h1 {
+    font-size: 1rem;
+    margin: 1rem 0; 
+}
+.subContentDisplay > div > div h4{
+    margin-top: -0.5rem;
+    font-size: 0.8rem;
+    color: rgb(75, 75, 75);
+}
+.subContentDisplay > button{
+    font-size: 1.2rem;
+}
+
+
+
+@media(min-width: 280px){
+    .selectionBox > div > select,
+    .selectionBox > div > input{
+        margin: 0 5rem;
+    }
+}
+@media(min-width: 350px){
+    .selectionBox > div > select,
+    .selectionBox > div > input{
+        margin: 0 8rem;
+    }
+}
+@media(min-width: 425px){
+    .selectionBox > div > label{
+        margin: 0 6rem;
+    }
+    .selectionBox > div > select,
+    .selectionBox > div > input{
+        margin: 0 10rem;
+    }
+    .randomize{
+        margin: 0 5rem;
+    }
+    .subContentDisplay > div{
+        margin: 0 1.5rem;
+    }
+}
+@media(min-width: 540px){
+    body{
+        background-size: 35rem;
+        background-position: -10px;
+        background-position-y: 150px;
+    }
+}
+@media(min-width: 768px){
+    .title{
+        margin-top: 1rem;
+    }
+    .selectionBox > div > label{
+        margin: 0 15rem;
+    }
+    .selectionBox > div > select,
+    .selectionBox > div > input{
+        margin: 0 21rem;
+    }
+    .randomize{
+        margin: 0 15rem;
+    }
+    .subContentDisplay > div{
+        margin: 0 10rem;
+    }
+    .subContentDisplay > button{
+        margin: 0 10rem;
+    }
+    .subContentDisplay > div{
+        border: 8px solid darkgreen;
+    }
+    .title h1{
+        border-bottom: 5px solid white;
+        margin-left: 12rem;
+        margin-right: 12rem;
+    }
+    .title{
+        background: rgb(95, 12, 133);
+       border: 7px solid rgb(0, 255, 0);
+       margin-bottom: -1rem;
+       margin-right: 4rem;
+       margin-left: 4rem;
+    }
+    body{
+        font-family: 'Noto Sans', sans-serif;
+        background-image: url('../BackgroundImages/test.jpg');
+        background-size: cover;
+        background-repeat: repeat;
+    }
+    
+}
+@media(min-width: 890px){
+    .selectionBox > div > select,
+    .selectionBox > div > input{
+        margin: 0 24rem;
+    }
+}
+@media(min-width: 1024px){
+    .selectionBox > div > label{
+        margin: 0 20rem;
+    }
+    .randomize{
+        margin: 0 19rem;
+    }
+    .subContentDisplay > div{
+        margin: 0 15rem;
+    }
+    .selectionBox > div > select,
+    .selectionBox > div > input{
+        margin: 0 29rem;
+    }
+    .subContentDisplay button{
+        margin: 0 13rem;
+    }
+    .title h1{
+        border-bottom: 5px solid darkgreen;
+    }
+    .title{
+        background: none;;
+       border: none;
+       margin-bottom: 1rem;
+       margin-right: 4rem;
+       margin-left: 4rem;
+       background: white;
+    }
+    body{
+        font-family: 'Noto Sans', sans-serif;
+        background-image: url('../BackgroundImages/turkeysub.png');
+        background-repeat: no-repeat;
+        background-size: 65rem;
+        background-position: 100px;
+        background-position-y: 50px;
+        padding-bottom: 4rem;
+    }
+}
+@media(min-width: 1280px){
+    .title{
+        margin: 0 15rem;
+        margin-bottom: -1rem;
+    }
+    .selectionBox > div > label{
+        margin: 0 25rem;
+    }
+    .randomize{
+        margin: 0 24rem;
+    }
+    .subContentDisplay > div{
+        margin: 0 21rem;
+    }
+    .selectionBox > div > select,
+    .selectionBox > div > input{
+        margin: 0 36rem;
+    }
+    .subContentDisplay button{
+        margin: 0 23rem;
+    }
+    body{
+        background-size: 80rem;
+        background-position: 0px;
+        background-position-y: -90px;
+    }
+}
+@media(min-width: 1440px){
+    .title{
+        margin: 0 20rem;
+        margin-bottom: -1rem;
+    }
+    .selectionBox > div > label{
+        margin: 0 33rem;
+    }
+    .randomize{
+        margin: 0 32rem;
+    }
+    .subContentDisplay > div{
+        margin: 0 25rem;
+    }
+    .selectionBox > div > select,
+    .selectionBox > div > input{
+        margin: 0 42rem;
+    }
+    .subContentDisplay button{
+        margin: 0 28rem;
+    }
+    body{
+        background-size: 85rem;
+        background-position: 100px;
+        background-position-y: -90px;
+    }
+}
+@media(min-width: 1800px){
+    .selectionBox > div > input{
+        padding-left: 3rem;
+    }
+    .title{
+        margin: 0 25rem;
+        margin-bottom: -1rem;
+    }
+    .selectionBox > div > label{
+        margin: 0 45rem;
+    }
+    .randomize{
+        margin: 0 43rem;
+    }
+    .subContentDisplay > div{
+        margin: 0 35rem;
+    }
+    .selectionBox > div > select,
+    .selectionBox > div > input{
+        margin: 0 54.5rem;
+    }
+    .subContentDisplay button{
+        margin: 0 37rem;
+    }
+    body{
+        background-size: 95rem;
+        background-position: 360px;
+        background-position-y: -250px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
