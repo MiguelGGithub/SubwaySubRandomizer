@@ -124,6 +124,12 @@ background-position: 200% center;
 div.hidden{
     display: none;
 }
+.hidden{
+    display: none;
+}
+div.subContentDisplay > div.hidden{
+    display: none !important;
+}
 img {
     max-width: 5rem;
 }
