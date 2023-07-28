@@ -1,1 +1,202 @@
-const _0x2e8d11=_0x2557;(function(_0x3715de,_0x5c8393){const _0x4127b7=_0x2557,_0x1d86cb=_0x3715de();while(!![]){try{const _0x4b40de=parseInt(_0x4127b7(0x21c))/0x1*(parseInt(_0x4127b7(0x201))/0x2)+parseInt(_0x4127b7(0x200))/0x3*(-parseInt(_0x4127b7(0x1ec))/0x4)+parseInt(_0x4127b7(0x1e7))/0x5*(-parseInt(_0x4127b7(0x1e6))/0x6)+parseInt(_0x4127b7(0x1fa))/0x7*(parseInt(_0x4127b7(0x22b))/0x8)+parseInt(_0x4127b7(0x1f2))/0x9*(parseInt(_0x4127b7(0x20a))/0xa)+parseInt(_0x4127b7(0x20c))/0xb*(parseInt(_0x4127b7(0x22a))/0xc)+-parseInt(_0x4127b7(0x213))/0xd;if(_0x4b40de===_0x5c8393)break;else _0x1d86cb['push'](_0x1d86cb['shift']());}catch(_0x2fec38){_0x1d86cb['push'](_0x1d86cb['shift']());}}}(_0x46a2,0xdd46e));function _0x2557(_0xcc341c,_0x5ccc79){const _0x46a25f=_0x46a2();return _0x2557=function(_0x25571a,_0x5da09d){_0x25571a=_0x25571a-0x1e6;let _0x48e44f=_0x46a25f[_0x25571a];return _0x48e44f;},_0x2557(_0xcc341c,_0x5ccc79);}const meatCheckbox=document[_0x2e8d11(0x1ea)](_0x2e8d11(0x227)),cheeseCheckbox=document[_0x2e8d11(0x1ea)](_0x2e8d11(0x20f)),veggiesCheckbox=document[_0x2e8d11(0x1ea)](_0x2e8d11(0x207)),saucesCheckbox=document[_0x2e8d11(0x1ea)](_0x2e8d11(0x1f7)),meatAmount=document[_0x2e8d11(0x20e)]('meatAmount'),cheeseAmount=document['getElementById'](_0x2e8d11(0x219)),sauceAmount=document[_0x2e8d11(0x20e)]('sauceAmount'),vegAmount=document['getElementById'](_0x2e8d11(0x1f1)),breadContainer=document[_0x2e8d11(0x1ea)](_0x2e8d11(0x1f9)),meatContainer=document[_0x2e8d11(0x1ea)](_0x2e8d11(0x21d)),cheeseContainer=document[_0x2e8d11(0x1ea)](_0x2e8d11(0x206)),veggieContainer=document['querySelector'](_0x2e8d11(0x218)),sauceContainer=document['querySelector']('.sauceDisplay');meatCheckbox[_0x2e8d11(0x211)](_0x2e8d11(0x229),function(){handleCheckboxChange(meatCheckbox,meatAmount,meatContainer);}),cheeseCheckbox[_0x2e8d11(0x211)]('change',function(){handleCheckboxChange(cheeseCheckbox,cheeseAmount,cheeseContainer);}),saucesCheckbox[_0x2e8d11(0x211)]('change',function(){handleCheckboxChange(saucesCheckbox,sauceAmount,sauceContainer);}),veggiesCheckbox[_0x2e8d11(0x211)](_0x2e8d11(0x229),function(){handleCheckboxChange(veggiesCheckbox,vegAmount,veggieContainer);});function handleCheckboxChange(_0x1d050b,_0x37cda2,_0x54a4cf){const _0x5a1fe8=_0x2e8d11;_0x1d050b[_0x5a1fe8(0x21a)]==='yes'&&!_0x1d050b[_0x5a1fe8(0x1f6)]?(_0x37cda2[_0x5a1fe8(0x205)]('disabled'),_0x37cda2[_0x5a1fe8(0x21a)]='1',_0x54a4cf[_0x5a1fe8(0x1ef)][_0x5a1fe8(0x1f4)](_0x5a1fe8(0x1ee))):(_0x37cda2['setAttribute']('disabled',_0x5a1fe8(0x1f6)),_0x37cda2[_0x5a1fe8(0x21a)]='',_0x37cda2['placeholder']='N',_0x54a4cf[_0x5a1fe8(0x1ef)][_0x5a1fe8(0x223)](_0x5a1fe8(0x1ee)));}function _0x46a2(){const _0x43d2ef=['textContent','slide-top','10iwXjRs','name','25619zhzTSa','div','getElementById','#cheeseCheck','createElement','addEventListener','json','22509669DPVZny','.subContentDisplay','appendChild','Error:','\x20Cals','.veggieDisplay','cheeseAmount','value','firstChild','5bQlHNb','.meatDisplay','Veggies\x20','.randomize','catch','push','https://subwaymenu.cyclic.app/sauces','add','src','length','Meats\x20','#meatCheck','img','change','6204smoYPv','14486896GFhliT','264iaUyMA','97145XSIfCw','https://subwaymenu.cyclic.app','.reset','querySelector','click','32mILqMP','Sauces\x20','hidden','classList','https://subwaymenu.cyclic.app/veggies','veggiesAmount','12435894GQnMoc','.changeOptions','remove','error','disabled','#sauceCheck','https://subwaymenu.cyclic.app/breads','.breadDisplay','7XiZkyY','splice','Cheese\x20','then','https://subwaymenu.cyclic.app/meats','https://subwaymenu.cyclic.app/cheeses','608412laWgYt','287380vCgyUB','floor','.loader','random','removeAttribute','.cheeseDisplay','#veggiesCheck'];_0x46a2=function(){return _0x43d2ef;};return _0x46a2();}document[_0x2e8d11(0x1ea)]('.randomize')[_0x2e8d11(0x211)](_0x2e8d11(0x1eb),hideOptions);function hideOptions(){const _0x149ebf=_0x2e8d11;document[_0x149ebf(0x1ea)]('.selectionBox')[_0x149ebf(0x1ef)]['add']('hidden'),document[_0x149ebf(0x1ea)]('.subContentDisplay')[_0x149ebf(0x1ef)][_0x149ebf(0x1f4)](_0x149ebf(0x1ee));}const newSub=document['querySelector'](_0x2e8d11(0x1f3)),reset=document[_0x2e8d11(0x1ea)](_0x2e8d11(0x1e9));reset[_0x2e8d11(0x211)](_0x2e8d11(0x1eb),getBread),document['querySelector'](_0x2e8d11(0x1e9))[_0x2e8d11(0x211)](_0x2e8d11(0x1eb),()=>{const _0x2086d1=_0x2e8d11;getRandomItem('https://subwaymenu.cyclic.app/meats',meatContainer,meatAmount,_0x2086d1(0x226)),getRandomItem('https://subwaymenu.cyclic.app/cheeses',cheeseContainer,cheeseAmount,_0x2086d1(0x1fc)),getRandomItem('https://subwaymenu.cyclic.app/veggies',veggieContainer,vegAmount,_0x2086d1(0x21e)),getRandomItem(_0x2086d1(0x222),sauceContainer,sauceAmount,_0x2086d1(0x1ed));}),newSub[_0x2e8d11(0x211)](_0x2e8d11(0x1eb),show);function show(){const _0x51de96=_0x2e8d11;document[_0x51de96(0x1ea)]('.selectionBox')[_0x51de96(0x1ef)][_0x51de96(0x1f4)](_0x51de96(0x1ee)),document[_0x51de96(0x1ea)](_0x51de96(0x214))[_0x51de96(0x1ef)]['add'](_0x51de96(0x1ee));}document[_0x2e8d11(0x1ea)]('.randomize')[_0x2e8d11(0x211)](_0x2e8d11(0x1eb),getBread);function getBread(){const _0x51f677=_0x2e8d11,_0x487b3b=document[_0x51f677(0x1ea)](_0x51f677(0x203));_0x487b3b[_0x51f677(0x1ef)][_0x51f677(0x1f4)]('hidden'),fetch(_0x51f677(0x1f8))[_0x51f677(0x1fd)](_0xdcac83=>_0xdcac83[_0x51f677(0x212)]())['then'](_0x2f60df=>{const _0x2fca70=_0x51f677,_0x504662=document[_0x2fca70(0x1ea)](_0x2fca70(0x1f9)),_0x279f3a=Math[_0x2fca70(0x202)](Math[_0x2fca70(0x204)]()*0x4),_0x48a90d=_0x2f60df[_0x279f3a];while(_0x504662[_0x2fca70(0x21b)]){_0x504662['firstChild'][_0x2fca70(0x1f4)]();}const _0x1b31a8=document['createElement'](_0x2fca70(0x228)),_0x34952a=_0x2fca70(0x1e8)+_0x48a90d['picture'];_0x1b31a8[_0x2fca70(0x224)]=_0x34952a;const _0x2d72fa=document[_0x2fca70(0x210)]('h1');_0x2d72fa[_0x2fca70(0x208)]=_0x48a90d[_0x2fca70(0x20b)];const _0x1df526=document[_0x2fca70(0x210)](_0x2fca70(0x20d)),_0x355376=document[_0x2fca70(0x210)]('h4');_0x355376['textContent']=_0x48a90d['calories']+_0x2fca70(0x217);const _0xad0361=document[_0x2fca70(0x210)]('h1');_0xad0361[_0x2fca70(0x208)]='Bread\x20';const _0x32cf5c=document[_0x2fca70(0x210)](_0x2fca70(0x20d));_0x1df526[_0x2fca70(0x215)](_0x2d72fa),_0x1df526[_0x2fca70(0x215)](_0x355376),_0x504662[_0x2fca70(0x215)](_0xad0361),_0x32cf5c[_0x2fca70(0x215)](_0x1b31a8),_0x32cf5c[_0x2fca70(0x215)](_0x1df526),_0x504662[_0x2fca70(0x1ef)]['add'](_0x2fca70(0x209)),_0x504662[_0x2fca70(0x215)](_0x32cf5c),_0x487b3b[_0x2fca70(0x1ef)][_0x2fca70(0x223)]('hidden');})['catch'](_0x2a7b03=>{const _0x45ce8a=_0x51f677;console[_0x45ce8a(0x1f5)]('Error:',_0x2a7b03),_0x487b3b[_0x45ce8a(0x1ef)][_0x45ce8a(0x223)](_0x45ce8a(0x1ee));});}document[_0x2e8d11(0x1ea)](_0x2e8d11(0x21f))[_0x2e8d11(0x211)](_0x2e8d11(0x1eb),getRandomItem);function getRandomItem(_0xe6cd9f,_0x4bee9e,_0x275da5,_0x41c151){const _0x6e183b=_0x2e8d11,_0x318d15=document[_0x6e183b(0x1ea)]('.loader');_0x318d15[_0x6e183b(0x1ef)][_0x6e183b(0x1f4)]('hidden'),fetch(_0xe6cd9f)[_0x6e183b(0x1fd)](_0x43149a=>_0x43149a[_0x6e183b(0x212)]())[_0x6e183b(0x1fd)](_0x323886=>{const _0x2f7a5d=_0x6e183b,_0x36fda9=_0x275da5[_0x2f7a5d(0x21a)],_0x5066b3=[];while(_0x4bee9e[_0x2f7a5d(0x21b)]){_0x4bee9e[_0x2f7a5d(0x21b)][_0x2f7a5d(0x1f4)]();}const _0x196ea8=document[_0x2f7a5d(0x210)]('h1');_0x196ea8['textContent']=_0x41c151,_0x4bee9e[_0x2f7a5d(0x215)](_0x196ea8);_0x36fda9!=0x0&&_0x4bee9e['classList'][_0x2f7a5d(0x1f4)]('hidden');const _0x2913b2=[..._0x323886];for(let _0x20260f=0x0;_0x20260f<_0x36fda9;_0x20260f++){if(_0x2913b2[_0x2f7a5d(0x225)]===0x0)break;const _0x2f24a9=Math['floor'](Math['random']()*_0x2913b2[_0x2f7a5d(0x225)]),_0x15bc8e=_0x2913b2[_0x2f24a9],_0x3ed8bd=document['createElement'](_0x2f7a5d(0x20d)),_0xd0f77d=document['createElement']('img'),_0x4ccad9=_0x2f7a5d(0x1e8)+_0x15bc8e['picture'];_0xd0f77d[_0x2f7a5d(0x224)]=_0x4ccad9;const _0x22a8bc=document[_0x2f7a5d(0x210)](_0x2f7a5d(0x20d)),_0x8846f1=document[_0x2f7a5d(0x210)]('h1'),_0x5881db=document['createElement']('h4');_0x5881db[_0x2f7a5d(0x208)]=_0x15bc8e['calories']+_0x2f7a5d(0x217),_0x8846f1['textContent']=_0x15bc8e[_0x2f7a5d(0x20b)],_0x22a8bc[_0x2f7a5d(0x215)](_0x8846f1),_0x22a8bc['appendChild'](_0x5881db),_0x3ed8bd[_0x2f7a5d(0x215)](_0xd0f77d),_0x3ed8bd[_0x2f7a5d(0x215)](_0x22a8bc),_0x4bee9e[_0x2f7a5d(0x1ef)][_0x2f7a5d(0x223)](_0x2f7a5d(0x209)),_0x4bee9e['appendChild'](_0x3ed8bd),_0x318d15[_0x2f7a5d(0x1ef)][_0x2f7a5d(0x223)](_0x2f7a5d(0x1ee)),_0x2913b2[_0x2f7a5d(0x1fb)](_0x2f24a9,0x1),_0x5066b3[_0x2f7a5d(0x221)](_0x15bc8e);}})[_0x6e183b(0x220)](_0x3947f9=>{const _0x1340c9=_0x6e183b;console[_0x1340c9(0x1f5)](_0x1340c9(0x216),_0x3947f9),_0x318d15[_0x1340c9(0x1ef)][_0x1340c9(0x223)](_0x1340c9(0x1ee));});}document[_0x2e8d11(0x1ea)]('.randomize')[_0x2e8d11(0x211)](_0x2e8d11(0x1eb),()=>{const _0x4242df=_0x2e8d11;getRandomItem(_0x4242df(0x1fe),meatContainer,meatAmount,_0x4242df(0x226)),getRandomItem(_0x4242df(0x1ff),cheeseContainer,cheeseAmount,_0x4242df(0x1fc)),getRandomItem(_0x4242df(0x1f0),veggieContainer,vegAmount,_0x4242df(0x21e)),getRandomItem(_0x4242df(0x222),sauceContainer,sauceAmount,'Sauces\x20');});
+
+
+//Check if user wants options.
+const meatCheckbox = document.querySelector('#meatCheck');
+const cheeseCheckbox = document.querySelector('#cheeseCheck');
+const veggiesCheckbox = document.querySelector('#veggiesCheck');
+const saucesCheckbox = document.querySelector('#sauceCheck');
+
+const meatAmount = document.getElementById("meatAmount");
+const cheeseAmount = document.getElementById("cheeseAmount");
+const sauceAmount = document.getElementById("sauceAmount");
+const vegAmount = document.getElementById("veggiesAmount");
+
+const breadContainer = document.querySelector('.breadDisplay');
+const meatContainer = document.querySelector('.meatDisplay');
+const cheeseContainer = document.querySelector('.cheeseDisplay');
+const veggieContainer = document.querySelector('.veggieDisplay');
+const sauceContainer = document.querySelector('.sauceDisplay');
+
+meatCheckbox.addEventListener("change", function() {
+  handleCheckboxChange(meatCheckbox, meatAmount, meatContainer);
+});
+
+cheeseCheckbox.addEventListener("change", function() {
+  handleCheckboxChange(cheeseCheckbox, cheeseAmount, cheeseContainer);
+});
+
+saucesCheckbox.addEventListener("change", function() {
+  handleCheckboxChange(saucesCheckbox, sauceAmount, sauceContainer);
+});
+
+veggiesCheckbox.addEventListener("change", function() {
+  handleCheckboxChange(veggiesCheckbox, vegAmount, veggieContainer);
+});
+function handleCheckboxChange(checkbox, amountInput, containerElement) {
+  if (checkbox.value === "yes" && !checkbox.disabled) {
+    amountInput.removeAttribute("disabled");
+    amountInput.value = '1';
+    containerElement.classList.remove('hidden');
+  } else {
+    amountInput.setAttribute("disabled", "disabled");
+    amountInput.value = '';
+    amountInput.placeholder = 'N';
+    containerElement.classList.add('hidden');
+  }
+}
+
+document.querySelector('.randomize').addEventListener('click', hideOptions)
+function hideOptions(){
+    document.querySelector('.selectionBox').classList.add('hidden')
+    document.querySelector('.subContentDisplay').classList.remove('hidden');
+}
+const newSub = document.querySelector('.changeOptions');
+const reset = document.querySelector('.reset')
+
+
+    
+    
+reset.addEventListener('click', getBread)
+document.querySelector('.reset').addEventListener('click', () => {
+    getRandomItem('https://subwayrbackend.onrender.com/meats', meatContainer, meatAmount, 'Meats ');
+    getRandomItem('https://subwayrbackend.onrender.com/cheeses', cheeseContainer, cheeseAmount, 'Cheese ');
+    getRandomItem('https://subwayrbackend.onrender.com/veggies', veggieContainer, vegAmount, 'Veggies ');
+    getRandomItem('https://subwayrbackend.onrender.com/sauces', sauceContainer, sauceAmount, 'Sauces ');
+});
+newSub.addEventListener('click', show)
+function show(){
+    document.querySelector('.selectionBox').classList.remove('hidden')
+    document.querySelector('.subContentDisplay').classList.add('hidden');
+}
+
+
+document.querySelector('.randomize').addEventListener('click', getBread)
+function getBread() {
+  const loaderElement = document.querySelector('.loader');
+  loaderElement.classList.remove('hidden'); 
+    fetch('https://subwayrbackend.onrender.com/breads')
+    .then(response => response.json())
+    .then(breads => {
+        const breadContainer = document.querySelector('.breadDisplay');
+        const randomIndex = Math.floor(Math.random() * 4);
+        const randomBread = breads[randomIndex];
+
+        while (breadContainer.firstChild) {
+            breadContainer.firstChild.remove();
+        }
+
+        const picture = document.createElement('img');
+        const imageURL = `https://subwayrbackend.onrender.com${randomBread.picture}`;
+        picture.src = imageURL;
+
+        const name = document.createElement('h1');
+        name.textContent = randomBread.name;
+        const nameACal = document.createElement('div')
+        const calories = document.createElement('h4');
+        calories.textContent = `${randomBread.calories} Cals`;
+
+        const category = document.createElement('h1')
+        category.textContent = 'Bread '
+
+        const div = document.createElement('div'); 
+
+        nameACal.appendChild(name);
+        nameACal.appendChild(calories);
+        breadContainer.appendChild(category)
+        div.appendChild(picture); 
+        div.appendChild(nameACal);
+
+        breadContainer.classList.add('slide-top');
+        breadContainer.appendChild(div);
+        loaderElement.classList.add('hidden'); 
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        loaderElement.classList.add('hidden'); 
+    });
+}
+
+document.querySelector('.randomize').addEventListener('click', getRandomItem);
+
+function getRandomItem(apiUrl, containerElement, amountElement, category) {
+  const loaderElement = document.querySelector('.loader');
+  loaderElement.classList.remove('hidden');
+  fetch(apiUrl)
+    .then(response => response.json())
+    .then(items => {
+      const amountValue = amountElement.value;
+      const selectedItems = [];
+
+      while (containerElement.firstChild) {
+        containerElement.firstChild.remove();
+      }
+
+      const categoryTitle = document.createElement('h1');
+      categoryTitle.textContent = category;
+      containerElement.appendChild(categoryTitle);
+
+      if (amountValue != 0) {
+        containerElement.classList.remove('hidden');
+      }
+
+      const availableItems = [...items]; // Create a copy of the original items array
+
+      for (let i = 0; i < amountValue; i++) {
+        if (availableItems.length === 0) {
+          // If no more available items, break out of the loop
+          break;
+        }
+
+        const randomIndex = Math.floor(Math.random() * availableItems.length);
+        const randomItem = availableItems[randomIndex];
+
+        const div = document.createElement('div');
+        const picture = document.createElement('img');
+        const imageURL = `https://subwayrbackend.onrender.com${randomItem.picture}`;
+        picture.src = imageURL;
+
+        const nameACal = document.createElement('div')
+        const name = document.createElement('h1');
+        const calories = document.createElement('h4');
+        calories.textContent = `${randomItem.calories} Cals`;
+
+        name.textContent = randomItem.name;
+        nameACal.appendChild(name);
+        nameACal.appendChild(calories);
+
+        div.appendChild(picture);
+        div.appendChild(nameACal);
+        containerElement.classList.add('slide-top');
+        containerElement.appendChild(div);
+        loaderElement.classList.add('hidden');
+
+        availableItems.splice(randomIndex, 1); // Remove the selected item from available items
+        selectedItems.push(randomItem); // Add the selected item to the selected items array
+      }
+    })
+    .catch(error => {
+      console.error('Error:', error);
+      loaderElement.classList.add('hidden');
+    });
+}
+
+
+
+
+document.querySelector('.randomize').addEventListener('click', () => {
+  getRandomItem('https://subwayrbackend.onrender.com/meats', meatContainer, meatAmount, 'Meats ');
+  getRandomItem('https://subwayrbackend.onrender.com/cheeses', cheeseContainer, cheeseAmount, 'Cheese ');
+  getRandomItem('https://subwayrbackend.onrender.com/veggies', veggieContainer, vegAmount, 'Veggies ');
+  getRandomItem('https://subwayrbackend.onrender.com/sauces', sauceContainer, sauceAmount, 'Sauces ');
+});
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
